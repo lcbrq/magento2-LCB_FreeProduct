@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\SalesRule\Model\Rule\Metadata\ValueProvider">
+        <plugin name="addFreeProductRule" type="LCB\FreeProduct\Plugin\Rule\Metadata\ValueProvider" sortOrder="1"/>
+    </type>
+    <type name="Magento\SalesRule\Model\Rule\Action\Discount\CalculatorFactory">
+        <plugin name="checkFreeProductRule" type="LCB\FreeProduct\Plugin\Rule\Action\Discount\CalculatorFactory" sortOrder="1"/>
+    </type>
+</config>

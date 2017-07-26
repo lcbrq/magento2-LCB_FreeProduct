@@ -1,0 +1,26 @@
+{
+    "name": "lcbrq/magento2-freeproduct",
+    "description": "Buy X get Y cart promo rule",
+    "authors": [
+        {
+            "name": "Silpion Tomasz Gregorczyk",
+            "email": "tom@lcbrq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "magento/framework": ">=100.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "beta",
+    "license": "OSL",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "LCB/FreeProduct"
+            ]
+        ]
+    }
+}
