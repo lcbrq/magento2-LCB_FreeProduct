@@ -34,7 +34,7 @@ class CalculatorFactory {
             return \Magento\Framework\App\ObjectManager::getInstance()->create($this->classByType[$type]);
         }
 
-        return $proceed();
+        return $proceed($type);
     }
 
 }
